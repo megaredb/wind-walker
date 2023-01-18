@@ -1,11 +1,11 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "io.github.megared",
+		"id": "wind-walker",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
+			"name": "Wind Walker",
 			"description": "A short description of your mod.",
 			"contributors": {
 				"Your name here": "Owner"
@@ -15,13 +15,13 @@
 				"issues": "https://github.com/QuiltMC/quilt-kotlin-template-mod/issues",
 				"sources": "https://github.com/QuiltMC/quilt-kotlin-template-mod"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/wind_walker/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
 			"init": {
 				"adapter": "kotlin",
-				"value": "com.example.example_mod.ExampleMod"
+				"value": "io.github.megared.WindWalker"
 			}
 		},
 		"depends": [
@@ -43,5 +43,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "wind_walker.mixins.json"
 }
