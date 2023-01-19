@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.megared.wind_walker.mixin",
+  "plugin": "io.github.megared.wind_walker.mixin.WindWalkerMixinPlugin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "common.LivingEntityMixin",
+    "common.PlayerMixin"
+  ],
+  "client": [
+    "client.ClientPlayerMixin",
+    "client.PlayerModelMixin",
+    "client.PlayerRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
